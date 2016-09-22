@@ -7,12 +7,12 @@ public class DebugThirteen1
 {
    public static void main(String[] args)
    {
-      FileSystem fs = FileSystems.getDefault();
-
       Path file1 =
-         fs.getPath("C:\\Java\\Chapter.13\\DebugData1.txt");
+//         Paths.get("C:\\Java\\Chapter.13\\DebugData1.txt");
+         Paths.get("C:\\Users\\Kye_Cook\\IdeaProjects\\cp2406_farrell8_ch13\\DebuggingExercises\\DebugData1.txt");
       Path file2 =
-         fs.getPath("C:\\Java\\Chapter.13\\DebugData2.txt");
+//         Paths.get("C:\\Java\\Chapter.13\\DebugData2.txt");
+         Paths.get("C:\\Users\\Kye_Cook\\IdeaProjects\\cp2406_farrell8_ch13\\DebuggingExercises\\DebugData2.txt");
       try
       {
          BasicFileAttributes attr1 =

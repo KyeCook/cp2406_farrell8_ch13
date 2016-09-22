@@ -8,7 +8,8 @@ public class DebugThirteen3
    public static void main(String[] args)
    {
       Path file =
-         Paths.get("C:\\Java\\Chapter.13\\DebugData4.txt");
+//         Paths.get("C:\\Java\\Chapter.13\\DebugData4.txt");
+         Paths.get("C:\\Users\\Kye_Cook\\IdeaProjects\\cp2406_farrell8_ch13\\DebuggingExercises\\DebugData4.txt");
       Scanner kb = new Scanner(System.in);
       String[] array = new String[2];
       String string;
